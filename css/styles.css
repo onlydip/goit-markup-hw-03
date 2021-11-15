@@ -17,11 +17,15 @@ h5,
 h6 {
   margin: 0;
 }
-
+img {
+  display: block;
+  margin: 0px auto;
+}
 ul {
   margin: 0;
   padding: 0;
 }
+
 button {
   cursor: pointer;
 }
@@ -199,12 +203,11 @@ body {
   height: 50px;
   margin-top: 30px;
 }
-
-/* -------------PREMAIN*/
-.premain {
+.section {
   padding-top: 94px;
   padding-bottom: 94px;
 }
+/* -------------PREMAIN*/
 
 .premain-list {
   display: flex;
@@ -262,8 +265,6 @@ body {
 
 .aftermain {
   background-color: var(--aftermain-color);
-  padding-top: 94px;
-  padding-bottom: 94px;
   text-align: center;
 }
 
@@ -408,8 +409,8 @@ body {
   flex-basis: calc(100% / 3 - 30px);
   margin-right: 30px;
   margin-bottom: 30px;
-  border: 1px solid #eeeeee;
 }
+
 .portfolio-item:nth-child(3n + 0) {
   margin-right: 0;
 }
@@ -420,6 +421,8 @@ body {
   letter-spacing: 0.06em;
   color: var(--second-tittle-color);
   padding: 20px 24px 4px 24px;
+  border: 1px solid #eeeeee;
+  border-width: 0px 1px 0px 1px;
 }
 
 .fourth-text {
@@ -428,4 +431,6 @@ body {
   letter-spacing: 0.03em;
   color: var(--first-text-color);
   padding: 0px 24px 20px 24px;
+  border: 1px solid #eeeeee;
+  border-width: 0px 1px 1px 1px;
 }
