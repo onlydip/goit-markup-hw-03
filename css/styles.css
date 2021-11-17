@@ -80,6 +80,8 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 .footer-links {
   font-style: normal;
@@ -103,8 +105,7 @@ body {
 
 /* -------------HEADER*/
 .header {
-  padding-top: 24px;
-  padding-bottom: 25px;
+  border: 1px solid #ececec;
 }
 .header-list {
   display: flex;
@@ -122,9 +123,19 @@ body {
   display: flex;
   align-items: center;
 }
+.footer-list {
+  margin-top: 20px;
+}
 .header-logo {
   color: var(--main-button-color);
+  padding-top: 24px;
+  padding-bottom: 24px;
   margin-right: 93px;
+}
+.header-logo-footer {
+  color: var(--main-button-color);
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 .header-item {
   margin-right: 50px;
@@ -164,12 +175,10 @@ body {
   font-style: inherit;
   text-align: center;
   max-height: 600px;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 
-.hero-container {
-  padding-top: 200px;
-  padding-bottom: 280px;
-}
 .hero-item {
   font-weight: 900;
   font-size: 44px;
@@ -180,9 +189,7 @@ body {
   margin: auto;
   display: block;
   width: 696px;
-  height: 120px;
-  left: 452px;
-  top: 280px;
+  margin-bottom: 30px;
 }
 .hero-btn {
   font-family: inherit;
@@ -201,7 +208,6 @@ body {
   margin: auto;
   min-width: 200px;
   height: 50px;
-  margin-top: 30px;
 }
 .section {
   padding-top: 94px;
@@ -297,6 +303,17 @@ body {
   margin-bottom: 50px;
 }
 
+.after-main-text {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.porfolio-item-text {
+  padding-top: 20px;
+  padding-left: 24px;
+  padding-bottom: 20px;
+  border: 1px solid #eeeeee;
+  border-width: 0px 1px 1px 1px;
+}
 .second-title {
   font-weight: 500;
   font-size: 16px;
@@ -304,7 +321,6 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--second-tittle-color);
-  margin-top: 30px;
   margin-bottom: 10px;
 }
 
@@ -314,7 +330,6 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--first-text-color);
-  margin-bottom: 30px;
 }
 
 /* -------------FOOTER*/
@@ -332,8 +347,6 @@ body {
   letter-spacing: 0.03em;
   color: var(--main-title-color);
   font-style: normal;
-  margin-top: 20px;
-  margin-bottom: 9px;
 }
 
 .footer-logos {
@@ -344,16 +357,18 @@ body {
   letter-spacing: 0.03em;
   color: var(--main-title-color);
 }
+
 .footer-mail {
   color: var(--second-text-color);
-  display: flex;
-  margin-bottom: 9px;
 }
 .footer-mail:hover,
 .footer-mail:focus {
   color: var(--main-button-color);
 }
-
+.footer-mail-item {
+  padding-top: 9px;
+  padding-bottom: 9px;
+}
 .footer-tel {
   color: var(--second-text-color);
 }
@@ -385,10 +400,13 @@ body {
 }
 .main-list {
   display: flex;
-  padding-top: 94px;
   text-align: center;
   margin-bottom: 50px;
   justify-content: center;
+}
+.main-portfolio {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .main-item {
   margin-right: 8px;
@@ -397,7 +415,6 @@ body {
   margin-right: 0;
 }
 .portfolio-list {
-  padding-bottom: 94px;
   display: flex;
   flex-wrap: wrap;
   margin-right: -30px;
@@ -411,18 +428,13 @@ body {
   margin-bottom: 30px;
 }
 
-.portfolio-item:nth-child(3n + 0) {
-  margin-right: 0;
-}
 .fourth-tittle {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--second-tittle-color);
-  padding: 20px 24px 4px 24px;
-  border: 1px solid #eeeeee;
-  border-width: 0px 1px 0px 1px;
+  margin-bottom: 4px;
 }
 
 .fourth-text {
@@ -430,7 +442,4 @@ body {
   line-height: 1.87;
   letter-spacing: 0.03em;
   color: var(--first-text-color);
-  padding: 0px 24px 20px 24px;
-  border: 1px solid #eeeeee;
-  border-width: 0px 1px 1px 1px;
 }
