@@ -82,6 +82,7 @@ body {
   letter-spacing: 0.02em;
   padding-top: 32px;
   padding-bottom: 32px;
+  display: flex;
 }
 .footer-links {
   font-style: normal;
@@ -124,7 +125,6 @@ body {
   align-items: center;
 }
 .footer-list {
-  margin-top: 20px;
 }
 .header-logo {
   color: var(--main-button-color);
@@ -134,8 +134,9 @@ body {
 }
 .header-logo-footer {
   color: var(--main-button-color);
-  padding-top: 20px;
-  padding-bottom: 20px;
+
+  margin-bottom: 20px;
+  display: flex;
 }
 .header-item {
   margin-right: 50px;
@@ -207,7 +208,6 @@ body {
   display: block;
   margin: auto;
   min-width: 200px;
-  height: 50px;
 }
 .section {
   padding-top: 94px;
@@ -311,6 +311,7 @@ body {
   padding-top: 20px;
   padding-left: 24px;
   padding-bottom: 20px;
+  padding-right: 24px;
   border: 1px solid #eeeeee;
   border-width: 0px 1px 1px 1px;
 }
@@ -347,6 +348,8 @@ body {
   letter-spacing: 0.03em;
   color: var(--main-title-color);
   font-style: normal;
+  margin-bottom: 9px;
+  display: flex;
 }
 
 .footer-logos {
@@ -360,15 +363,14 @@ body {
 
 .footer-mail {
   color: var(--second-text-color);
+  margin-bottom: 9px;
+  display: inline-block;
 }
 .footer-mail:hover,
 .footer-mail:focus {
   color: var(--main-button-color);
 }
-.footer-mail-item {
-  padding-top: 9px;
-  padding-bottom: 9px;
-}
+
 .footer-tel {
   color: var(--second-text-color);
 }
